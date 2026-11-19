@@ -1,0 +1,372 @@
+{
+  "ChevalGrandSlay:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "ChevalGrandSlay:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "ChevalGrandSlay:ALittleCourage": {
+    "NAME": "A Little Courage",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block."
+  },
+  "ChevalGrandSlay:LightStep": {
+    "NAME": "A Timid Step",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Deal !D! damage."
+  },
+  "ChevalGrandSlay:DisrupTheFormation": {
+    "NAME": "Shadow Swing",
+    "DESCRIPTION": "Deal !D! damage to an enemy. NL Apply !M! Weak to that enemy."
+  },
+  "ChevalGrandSlay:StepSteady": {
+    "NAME": "Steady Footsteps",
+    "DESCRIPTION": "Deal damage to ALL enemies equal to your current Block."
+  },
+  "ChevalGrandSlay:ReorganizeThePace": {
+    "NAME": "Listen to the Sea Breeze",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Gain !B! Block."
+  },
+  "ChevalGrandSlay:HandoverMoment": {
+    "NAME": "Your Turn",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Draw !M! cards. Gain 2 Energy."
+  },
+  "ChevalGrandSlay:CushionLanding": {
+    "NAME": "A Short Rest",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Gain !B! Block. If a card has entered your Rest Pile this turn, draw 1 card."
+  },
+  "ChevalGrandSlay:SidewaysEvasion": {
+    "NAME": "Away from the Crowd",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Gain !B! Block. If no other card in your hand has Stamina remaining, draw 2 cards."
+  },
+  "ChevalGrandSlay:BriefRestRestart": {
+    "NAME": "A Little Extra Sometimes",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Gain !B! Block. NL Choose up to 2 Stamina Skills from your Rest Pile, fully restore their Stamina, and move them to your draw pile."
+  },
+  "ChevalGrandSlay:UnwindMomentum": {
+    "NAME": "Hiding in My Cap",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak to the target."
+  },
+  "ChevalGrandSlay:ReorderNotes": {
+    "NAME": "Another Page Filled",
+    "DESCRIPTION": "Draw cards until you have !M! cards in your hand. NL Exhaust."
+  },
+  "ChevalGrandSlay:AroundTheBend": {
+    "NAME": "Blue Beyond the Bend",
+    "DESCRIPTION": "Draw !M! cards. You may choose a Stamina card in your hand to cost 1 less Energy this turn."
+  },
+  "ChevalGrandSlay:ReviewThePace": {
+    "NAME": "My Treasure",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Draw !M! cards. NL Choose a card in your hand to Retain at the end of this turn."
+  },
+  "ChevalGrandSlay:ClearDistractions": {
+    "NAME": "Goodbye to Self-Doubt",
+    "DESCRIPTION": "Exhaust a Status or Curse in your hand. NL Draw 1 card."
+  },
+  "ChevalGrandSlay:PierceTheGap": {
+    "NAME": "Through the Waves",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Deal !D! damage to an enemy. NL This attack ignores the target's Block."
+  },
+  "ChevalGrandSlay:PrepareEarly": {
+    "NAME": "Morning Practice Alone",
+    "DESCRIPTION": "Choose up to 2 cards in your draw pile. Upgrade them for this combat. NL Exhaust."
+  },
+  "ChevalGrandSlay:RapidCombination": {
+    "NAME": "Three Swings in a Row",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Deal !D! damage 3 times."
+  },
+  "ChevalGrandSlay:TearOpenDefense": {
+    "NAME": "Please Look at Me",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Deal !D! damage. NL If the target already had Vulnerable or Weak before this attack, draw !M! cards."
+  },
+  "ChevalGrandSlay:BreakTheOpening": {
+    "NAME": "Leaning Forward",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Apply !M! Vulnerable to the target. NL Deal !D! damage."
+  },
+  "ChevalGrandSlay:PrepareForNextStep": {
+    "NAME": "Same Time Tomorrow",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Block next turn."
+  },
+  "ChevalGrandSlay:GuardTheFinish": {
+    "NAME": "My Sisters' Cheers",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Gain !B! Block. NL Gain !M! additional Block for each card in your Rest Pile."
+  },
+  "ChevalGrandSlay:SpreadTheOpening": {
+    "NAME": "Spreading Ripples",
+    "DESCRIPTION": "Apply !M! Vulnerable to each enemy. NL Exhaust."
+  },
+  "ChevalGrandSlay:CountTheCost": {
+    "NAME": "Effort Rewarded",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Draw !M! cards. If a card has entered your Rest Pile this turn, gain 2 Energy."
+  },
+  "ChevalGrandSlay:FateEcho": {
+    "NAME": "The Tide Calls Again",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Fully restore the Stamina of all cards in your Rest Pile and put them into your Draw Pile."
+  },
+  "ChevalGrandSlay:SteadyPace": {
+    "NAME": "Finding My Footing",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Double your current Block."
+  },
+  "ChevalGrandSlay:Reschedule": {
+    "NAME": "Setting Out Again",
+    "DESCRIPTION": "Shuffle your draw and discard piles together to form a new draw pile. Draw !M! cards. NL Exhaust."
+  },
+  "ChevalGrandSlay:BalanceTheWeight": {
+    "NAME": "One More Bite",
+    "DESCRIPTION": "Gain !M! Energy. Add a Weight Gain! to your hand. NL Exhaust."
+  },
+  "ChevalGrandSlay:FlowingAssault": {
+    "NAME": "A Voyage with the Wind",
+    "DESCRIPTION": "Each turn, draw !M! cards after each Attack you play, starting with your fourth Attack that turn."
+  },
+  "ChevalGrandSlay:CutOffRetreat": {
+    "NAME": "No More Hiding",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Deal !D! damage and stun the target."
+  },
+  "ChevalGrandSlay:OldTraceReturnsEdge": {
+    "NAME": "Traces of Effort",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Deal !D! damage to an enemy once for each card in your Rest Pile."
+  },
+  "ChevalGrandSlay:LendReserve": {
+    "NAME": "Pass the Ball",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Fill your hand with Balls."
+  },
+  "ChevalGrandSlay:SportsDrinkSupply": {
+    "NAME": "Energy Replenishment",
+    "DESCRIPTION": "Add !M! Extra-Large Burger Patty cards to your hand."
+  },
+  "ChevalGrandSlay:ReturnMarker": {
+    "NAME": "A Signal to Head Home",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Choose a card in your hand. Reduce its cost by !M! this combat. Draw 1 cards."
+  },
+  "ChevalGrandSlay:ReplanTheRoute": {
+    "NAME": "A Grand Journey",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Choose up to 3 cards from your discard pile and insert them at random positions in your draw pile. Draw 1 cards."
+  },
+  "ChevalGrandSlay:SmoothBreathing": {
+    "NAME": "The Rhythm of Solitude",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Look at the top 4 cards of your Draw Pile. Put !M! of them into your hand."
+  },
+  "ChevalGrandSlay:CorrectTheFormation": {
+    "NAME": "Tying My Shoelaces",
+    "DESCRIPTION": "Look at the top !M! cards of your draw pile. Move 2 of them to the bottom. The remaining cards keep their order.",
+    "UPGRADE_DESCRIPTION": "Look at the top !M! cards of your draw pile. You may move up to 2 to the bottom and return the rest in their original order."
+  },
+  "ChevalGrandSlay:RepurposeBulwark": {
+    "NAME": "Borrowed Composure",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL If the enemy has Block, remove up to !M! Block from it and gain that much Block. NL Otherwise, it loses 12 HP."
+  },
+  "ChevalGrandSlay:WaitAndSee": {
+    "NAME": "Waiting for a Bite",
+    "DESCRIPTION": "Gain !B! Block. NL Draw 2 cards, then discard 1 of the cards drawn this way."
+  },
+  "ChevalGrandSlay:DrawFinishLine": {
+    "NAME": "Today's Finish Line",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Choose X Stamina cards from your Rest Pile (all if fewer). Restore half of each card's maximum Stamina (rounded up) and put them into your Draw Pile. Draw !M! cards."
+  },
+  "ChevalGrandSlay:DisruptFootwork": {
+    "NAME": "Don't Underestimate Me",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Apply !M! Vulnerable to ALL enemies, then deal !D! damage to them."
+  },
+  "ChevalGrandSlay:OldRoadWarmth": {
+    "NAME": "Little by Little",
+    "DESCRIPTION": "During your turn, whenever one of your cards enters your Rest Pile, gain !M! Block."
+  },
+  "ChevalGrandSlay:RemainingUsesSense": {
+    "NAME": "Stubborn Through Fatigue",
+    "DESCRIPTION": "During your turn, whenever one of your cards enters your Rest Pile, deal !M! damage to a random enemy."
+  },
+  "ChevalGrandSlay:EarthshakingStep": {
+    "NAME": "A Quiet Shock",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Deal !D! damage to ALL enemies."
+  },
+  "ChevalGrandSlay:FinalSprint": {
+    "NAME": "A Grand Crossing",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Deal !D! damage to ALL enemies. Hit an additional time for each card in your Rest Pile."
+  },
+  "ChevalGrandSlay:WinningLine": {
+    "NAME": "Within Reach",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Deal !D! damage. NL Deal !M! additional damage for each Attack previously played this turn, counting up to 4 Attacks."
+  },
+  "ChevalGrandSlay:FinalChainStep": {
+    "NAME": "Beyond That Light",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Deal !D! damage twice. NL If you have already played an Attack this turn, deal that damage 4 times instead."
+  },
+  "ChevalGrandSlay:WinningShift": {
+    "NAME": "Azure Sea Route",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Gain 4 Energy. Draw !M! cards. NL Shuffle 2 Dazed into your draw pile."
+  },
+  "ChevalGrandSlay:FateGuidance": {
+    "NAME": "Tidebreaker",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Choose up to 4 Stamina cards from your Rest Pile, fully restore their Stamina, and add them to your hand. Each costs 1 less this turn."
+  },
+  "ChevalGrandSlay:UnwaveringStep": {
+    "NAME": "Even If I'm Clumsy",
+    "DESCRIPTION": "During your turn, whenever you play an Attack with a base Energy cost of at least 1, gain !M! Block."
+  },
+  "ChevalGrandSlay:WinningRhythm": {
+    "NAME": "Nimble",
+    "DESCRIPTION": "During your turn, whenever you play a Skill, gain !M! Block."
+  },
+  "ChevalGrandSlay:WeightGain": {
+    "NAME": "Weight Gain!",
+    "DESCRIPTION": "No effect."
+  },
+  "ChevalGrandSlay:Ball": {
+    "NAME": "Ball",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust."
+  },
+  "ChevalGrandSlay:EmptyShell": {
+    "NAME": "Let Me Catch My Breath...",
+    "DESCRIPTION": "No effect. This card may appear when you copy a card with 0 Stamina. NL Exhaust."
+  },
+  "ChevalGrandSlay:EnergyDrink": {
+    "NAME": "Extra-Large Burger Patty",
+    "DESCRIPTION": "Heal 6 HP. NL For every 6 Extra-Large Burger Patty cards you play this combat, add a Weight Gain! to your hand. NL Exhaust."
+  },
+  "ChevalGrandSlay:LittleBravePlus": {
+    "NAME": "Poised and Confident",
+    "DESCRIPTION": "Deal !D! damage to an enemy. NL Gain !B! Block."
+  },
+  "ChevalGrandSlay:AllOut": {
+    "NAME": "I Want to Be Remembered, Too",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Choose another card in your hand with Stamina remaining. Play it for free once per point of Stamina it has remaining."
+  },
+  "ChevalGrandSlay:AimForTheFinish": {
+    "NAME": "The Finish in My Heart",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Choose !M! card(s) from your draw or discard pile and add them to your hand. Each costs 1 less Energy this turn."
+  },
+  "ChevalGrandSlay:BorrowFromThePast": {
+    "NAME": "A Silhouette of Light",
+    "DESCRIPTION": "At the start of your turn, gain 2 Block for each card in your Rest Pile."
+  },
+  "ChevalGrandSlay:BorrowForceEscape": {
+    "NAME": "Unfazed by Unease",
+    "DESCRIPTION": "Whenever you would gain Weak or Frail, reduce the stacks gained by !M!, to a minimum of 0."
+  },
+  "ChevalGrandSlay:ChainStep": {
+    "NAME": "Lighter Steps",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Deal !D! damage. NL After you play at least 2 Attacks this turn, this card costs 1 less for the rest of the turn."
+  },
+  "ChevalGrandSlay:ChaseTheWind": {
+    "NAME": "A Windblown Hem",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Deal !D! damage. NL Choose your draw pile, discard pile, or Rest Pile and draw !M! cards from it."
+  },
+  "ChevalGrandSlay:ClamToFight": {
+    "NAME": "Quiet Resolve",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor."
+  },
+  "ChevalGrandSlay:CounterAttack": {
+    "NAME": "I Can Fight Back, Too",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! I Can Fight Back, Too."
+  },
+  "ChevalGrandSlay:Domain": {
+    "NAME": "I Can Shine, Too",
+    "DESCRIPTION": "Enter Domain for 2 of your turns, including this turn. NL Exhaust. NL Fully restore resting cards and return them to your hand or draw pile. Gain 4 Energy on entry and each turn. Attacks deal 80% more damage. Die if the battle continues when the Domain expires."
+  },
+  "ChevalGrandSlay:EchoOfTheFinish": {
+    "NAME": "Hit It Far!",
+    "DESCRIPTION": "Whenever you kill an enemy, deal the excess damage to ALL remaining enemies."
+  },
+  "ChevalGrandSlay:FillTheGap": {
+    "NAME": "A Little Care",
+    "DESCRIPTION": "The first time each of your turns a Stamina card leaves your Rest Pile, restore 1 additional Stamina to it.",
+    "UPGRADE_DESCRIPTION": "The first time each of your turns a Stamina card leaves your Rest Pile, restore 1 additional Stamina to it, and gain 1 Energy."
+  },
+  "ChevalGrandSlay:FinalKick": {
+    "NAME": "Final Kick",
+    "DESCRIPTION": "Can only be played with 0 Energy, no Stamina cards in your draw or discard piles, and at least 1 card in your Rest Pile. NL Deal !D! damage to ALL enemies. NL Retain."
+  },
+  "ChevalGrandSlay:FinishLineEcho": {
+    "NAME": "Echoes of Light",
+    "DESCRIPTION": "During your turn, whenever one of your cards enters your Rest Pile, deal !M! damage to ALL enemies."
+  },
+  "ChevalGrandSlay:ForgeAhead": {
+    "NAME": "Offensive Stance",
+    "DESCRIPTION": "If you have played 3 Attacks this turn, gain 1 Energy and deal 18 damage to all enemies."
+  },
+  "ChevalGrandSlay:KeepSomeInReserve": {
+    "NAME": "Yesterday's Reserves",
+    "DESCRIPTION": "At the end of your turn, retain all unspent Energy."
+  },
+  "ChevalGrandSlay:LongSprint": {
+    "NAME": "A Belated Burst",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Deal !D! damage. NL If this card was Retained at the end of your last turn, this damage includes a bonus of !M!. NL Retain."
+  },
+  "ChevalGrandSlay:MeasuredAdvanceAndRetreat": {
+    "NAME": "Guarding Home Plate",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL During the enemy turn, lose at most !M! HP in total from enemy attacks."
+  },
+  "ChevalGrandSlay:NeverStepBehind": {
+    "NAME": "Not Content with Second",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Gain !B! Block. NL Apply !M! Vulnerable to ALL enemies."
+  },
+  "ChevalGrandSlay:NoConcession": {
+    "NAME": "A Competitive Heart",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Gain !B! Block. NL During the enemy turn, whenever you fully Block a hit from an attack, deal !M! damage to ALL enemies."
+  },
+  "ChevalGrandSlay:NoRegretsEnding": {
+    "NAME": "An Unfinished Run",
+    "DESCRIPTION": "Whenever one of your cards enters your Rest Pile, add !M! damage to each hit of your next Attack."
+  },
+  "ChevalGrandSlay:OldWallNewEdge": {
+    "NAME": "Take the Leap",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/4. NL Add 2 Dazed to your Draw Pile. Deal !D! damage to a single enemy twice."
+  },
+  "ChevalGrandSlay:OneBeatAhead": {
+    "NAME": "Beyond Admiration",
+    "DESCRIPTION": "At the end of this turn, immediately take an extra turn. At the start of that turn, gain 1 Strength and 1 Dexterity. NL Exhaust."
+  },
+  "ChevalGrandSlay:PourIntoOneMove": {
+    "NAME": "An All-Out Pitch",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Choose a Stamina Attack in your hand and immediately play it for free. NL Its first attack hits 1 additional time."
+  },
+  "ChevalGrandSlay:PrefectDefend": {
+    "NAME": "Self-Control",
+    "DESCRIPTION": "At the start of each of your turns, gain !M! Block. NL Whenever you fully Block a hit from an attack, gain 1 Energy and draw 1 card."
+  },
+  "ChevalGrandSlay:RegainTheEdge": {
+    "NAME": "Tell Me I Can, Too",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Remove up to X stacks of debuffs from yourself. NL Deal damage to ALL enemies equal to 10 times the number of stacks removed."
+  },
+  "ChevalGrandSlay:RenewTheContest": {
+    "NAME": "Another Race Together",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Choose a Stamina Attack from your Rest Pile, fully restore its Stamina, and add it to your hand. On its next play, each hit deals !M! additional damage."
+  },
+  "ChevalGrandSlay:RenewTheOldPact": {
+    "NAME": "What We Promised",
+    "DESCRIPTION": "At the start of your turn, gain 1 Energy and 4 Strength.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, gain 1 Energy and 4 Strength, then draw 1 card."
+  },
+  "ChevalGrandSlay:ReserveAStep": {
+    "NAME": "One More Catch",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/6. NL Gain !B! Block. NL Choose another card in your hand with Stamina remaining and enchant it with Not Quite Done for this combat."
+  },
+  "ChevalGrandSlay:RewriteFate": {
+    "NAME": "Promise under the Sky",
+    "DESCRIPTION": "Stamina !ChevalGrandSlay:Stamina!/2. NL Choose up to 4 Stamina cards from your Rest Pile. Fully restore their Stamina, play them for free, then put them into your discard pile."
+  },
+  "ChevalGrandSlay:SubZero": {
+    "NAME": "Summer Calm",
+    "DESCRIPTION": "Discard 1 card. Gain !M! Plating. NL Restore 1 Stamina to each Stamina card in your Rest Pile. Move cards with full Stamina to your draw pile.",
+    "UPGRADE_DESCRIPTION": "Discard 1 card. Gain !M! Plating. NL Restore 2 Stamina to each Stamina card in your Rest Pile. Move cards with full Stamina to your draw pile."
+  },
+  "ChevalGrandSlay:SuppressTheirSpirit": {
+    "NAME": "Please Remember Me",
+    "DESCRIPTION": "Deal !D! damage to an enemy. NL Apply Are You Looking at Someone Else?."
+  },
+  "ChevalGrandSlay:TurnTheOldPage": {
+    "NAME": "Yesterday's Practice",
+    "DESCRIPTION": "Choose a card in your hand that came from your deck and has at least 2 Stamina remaining. Spend 2 of its Stamina. Draw !M! cards. NL Exhaust."
+  },
+  "ChevalGrandSlay:TurnTogether": {
+    "NAME": "Someday... Let's Run Together Again",
+    "DESCRIPTION": "During your turn, whenever one of your cards leaves your Rest Pile, draw 1 card.",
+    "UPGRADE_DESCRIPTION": "During your turn, whenever one of your cards leaves your Rest Pile, draw 1 card and gain !M! Block."
+  },
+  "ChevalGrandSlay:WideView": {
+    "NAME": "The Blue I Dream Of",
+    "DESCRIPTION": "Increase your hand limit by 2 this combat. NL At the start of your turn, restore !M! Stamina to the 2 oldest Stamina cards in your Rest Pile. Move each to your Draw Pile when its Stamina is full.",
+    "UPGRADE_DESCRIPTION": "Increase your hand limit by 2 this combat. NL At the start of your turn, restore !M! Stamina to the 3 oldest Stamina cards in your Rest Pile. Move each to your Draw Pile when its Stamina is full."
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "ChevalGrandSlay:Strike": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "ChevalGrandSlay:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点格挡。"
+  },
+  "ChevalGrandSlay:ALittleCourage": {
+    "NAME": "小小的勇气",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点格挡。"
+  },
+  "ChevalGrandSlay:LightStep": {
+    "NAME": "怯怯的一步",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 造成!D!点伤害"
+  },
+  "ChevalGrandSlay:DisrupTheFormation": {
+    "NAME": "影打",
+    "DESCRIPTION": "对单个敌人造成!D!点伤害。 NL 对该敌人施加!M!层虚弱。"
+  },
+  "ChevalGrandSlay:StepSteady": {
+    "NAME": "坚定步伐",
+    "DESCRIPTION": "对所有敌人造成等于你当前格挡值的伤害"
+  },
+  "ChevalGrandSlay:ReorganizeThePace": {
+    "NAME": "听一会海风",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 获得 !B! 点格挡"
+  },
+  "ChevalGrandSlay:HandoverMoment": {
+    "NAME": "轮到你了",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 抽!M!张牌。获得2点能量。"
+  },
+  "ChevalGrandSlay:CushionLanding": {
+    "NAME": "小歇",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 获得!B!点格挡。若本回合有牌进入休整牌堆，抽1张牌。"
+  },
+  "ChevalGrandSlay:SidewaysEvasion": {
+    "NAME": "躲开人群",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 获得!B!点格挡。若手中没有其他仍有体力的牌，抽2张牌。"
+  },
+  "ChevalGrandSlay:BriefRestRestart": {
+    "NAME": "偶尔吃多点",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 获得!B!点格挡。 NL 从休整牌堆选择至多2张体力技能牌，将其体力回满并置入抽牌堆。"
+  },
+  "ChevalGrandSlay:UnwindMomentum": {
+    "NAME": "躲进帽子里",
+    "DESCRIPTION": "获得!B!点格挡。 NL 对目标施加!M!层虚弱。"
+  },
+  "ChevalGrandSlay:ReorderNotes": {
+    "NAME": "又写满一页",
+    "DESCRIPTION": "抽牌，直到手中有!M!张牌。 NL 消耗。"
+  },
+  "ChevalGrandSlay:AroundTheBend": {
+    "NAME": "转角后的蓝",
+    "DESCRIPTION": "抽!M!张牌。你可以选择手中1张体力牌，使其本回合费用减少1。"
+  },
+  "ChevalGrandSlay:ReviewThePace": {
+    "NAME": "我的宝藏",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 抽!M!张牌 NL 选择手中1张牌，使其在本回合结束时保留"
+  },
+  "ChevalGrandSlay:ClearDistractions": {
+    "NAME": "与自卑告别",
+    "DESCRIPTION": "消耗手中1张状态牌或诅咒牌。 NL 抽1张牌"
+  },
+  "ChevalGrandSlay:PierceTheGap": {
+    "NAME": "穿浪",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 对单个敌人造成!D!点伤害。 NL 本次攻击无视目标格挡"
+  },
+  "ChevalGrandSlay:PrepareEarly": {
+    "NAME": "独自晨练",
+    "DESCRIPTION": "从抽牌堆选择至多2张牌，在本场战斗中升级它们。 NL 消耗。"
+  },
+  "ChevalGrandSlay:RapidCombination": {
+    "NAME": "三连挥棒",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 造成!D!点伤害3次。"
+  },
+  "ChevalGrandSlay:TearOpenDefense": {
+    "NAME": "请看着我",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 造成!D!点伤害。 NL 若目标在这次攻击前已有易伤或虚弱，抽!M!张牌。"
+  },
+  "ChevalGrandSlay:BreakTheOpening": {
+    "NAME": "向前探身",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 给予目标!M!层易伤。 NL 造成!D!点伤害"
+  },
+  "ChevalGrandSlay:PrepareForNextStep": {
+    "NAME": "明天仍然赴约",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 下回合获得 !M! 点格挡"
+  },
+  "ChevalGrandSlay:GuardTheFinish": {
+    "NAME": "姐妹的声援",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 获得!B!点格挡。 NL 休整牌堆中每有1张牌，额外获得!M!点格挡。"
+  },
+  "ChevalGrandSlay:SpreadTheOpening": {
+    "NAME": "浪纹扩散",
+    "DESCRIPTION": "对每名敌人施加!M!层易伤。 NL 消耗。"
+  },
+  "ChevalGrandSlay:CountTheCost": {
+    "NAME": "汗水会回应",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 抽!M!张牌。若本回合已有牌进入休整牌堆，获得2点能量。"
+  },
+  "ChevalGrandSlay:FateEcho": {
+    "NAME": "潮声再起",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 恢复休整牌堆中所有牌的全部体力，并将它们放入抽牌堆。"
+  },
+  "ChevalGrandSlay:SteadyPace": {
+    "NAME": "慢慢站稳",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 将你当前的格挡翻倍。"
+  },
+  "ChevalGrandSlay:Reschedule": {
+    "NAME": "重新出发",
+    "DESCRIPTION": "将抽牌堆和弃牌堆一起洗成新的抽牌堆。抽!M!张牌。 NL 消耗。"
+  },
+  "ChevalGrandSlay:BalanceTheWeight": {
+    "NAME": "多吃一口",
+    "DESCRIPTION": "获得!M!点能量。将1张发胖！加入手牌。 NL 消耗。"
+  },
+  "ChevalGrandSlay:FlowingAssault": {
+    "NAME": "顺风的航程",
+    "DESCRIPTION": "每个你的回合，从第4张攻击牌起，每打出1张攻击牌后，抽!M!张牌。"
+  },
+  "ChevalGrandSlay:CutOffRetreat": {
+    "NAME": "不再躲藏",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 造成!D!点伤害，击晕目标。"
+  },
+  "ChevalGrandSlay:OldTraceReturnsEdge": {
+    "NAME": "汗水的痕迹",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 对一名敌人造成!D!点伤害，攻击次数等于休整牌堆中的牌数。"
+  },
+  "ChevalGrandSlay:LendReserve": {
+    "NAME": "传球",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 用球填满手牌。"
+  },
+  "ChevalGrandSlay:SportsDrinkSupply": {
+    "NAME": "能量补给",
+    "DESCRIPTION": "将!M!张超大份汉堡肉加入手牌。"
+  },
+  "ChevalGrandSlay:ReturnMarker": {
+    "NAME": "回垒的讯号",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 选择1张手牌，使其在本场战斗中的费用降低!M!。抽1张牌。"
+  },
+  "ChevalGrandSlay:ReplanTheRoute": {
+    "NAME": "宏伟旅程",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 从弃牌堆选择至多3张牌，随机插入抽牌堆。抽1张牌。"
+  },
+  "ChevalGrandSlay:SmoothBreathing": {
+    "NAME": "独处的节奏",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 查看抽牌堆顶的4张牌，选择其中!M!张放入手牌。"
+  },
+  "ChevalGrandSlay:CorrectTheFormation": {
+    "NAME": "整理鞋带",
+    "DESCRIPTION": "查看抽牌堆顶!M!张牌。将其中2张移到牌堆底，其余牌保持原顺序。",
+    "UPGRADE_DESCRIPTION": "查看抽牌堆顶!M!张牌，可将其中至多2张移到牌堆底，其余按原顺序放回。"
+  },
+  "ChevalGrandSlay:RepurposeBulwark": {
+    "NAME": "借来的从容",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 移除敌人至多!M!点格挡，获得等于实际移除量的格挡 NL 否则扣除敌方12点生命值"
+  },
+  "ChevalGrandSlay:WaitAndSee": {
+    "NAME": "静候咬钩",
+    "DESCRIPTION": "获得!B!点格挡。 NL 抽2张牌，然后从本次抽到的牌中丢弃1张。"
+  },
+  "ChevalGrandSlay:DrawFinishLine": {
+    "NAME": "今天的终点",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 从休整牌堆选择X张体力牌。各恢复其体力上限的一半，并放入抽牌堆。抽!M!张牌。"
+  },
+  "ChevalGrandSlay:DisruptFootwork": {
+    "NAME": "别小看我",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 对所有敌人施加!M!层易伤，并各造成!D!点伤害。"
+  },
+  "ChevalGrandSlay:OldRoadWarmth": {
+    "NAME": "点滴积累",
+    "DESCRIPTION": "你的回合中，每有1张你的牌进入休整牌堆，获得!M!点格挡。"
+  },
+  "ChevalGrandSlay:RemainingUsesSense": {
+    "NAME": "疲惫的倔强",
+    "DESCRIPTION": "你的回合中，每有1张你的牌进入休整牌堆，对1名随机敌人造成!M!点伤害。"
+  },
+  "ChevalGrandSlay:EarthshakingStep": {
+    "NAME": "小声的震撼",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 对所有敌人造成!D!点伤害"
+  },
+  "ChevalGrandSlay:FinalSprint": {
+    "NAME": "伟大的踏破",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 对所有敌人造成!D!点伤害。休整牌堆每有1张牌，攻击次数+1"
+  },
+  "ChevalGrandSlay:WinningLine": {
+    "NAME": "触手可及",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 造成!D!点伤害。 NL 本回合此前每打出1张攻击牌，伤害增加!M!点，至多计算4张"
+  },
+  "ChevalGrandSlay:FinalChainStep": {
+    "NAME": "超越那束光",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 造成!D!点伤害2次。 NL 若本回合此前已打出至少1张攻击牌，改为造成该伤害4次"
+  },
+  "ChevalGrandSlay:WinningShift": {
+    "NAME": "碧海航线",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 获得4点能量，抽!M!张牌。 NL 将2张晕眩随机放入抽牌堆。"
+  },
+  "ChevalGrandSlay:FateGuidance": {
+    "NAME": "Tidebreaker",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 从休整牌堆选择至多4张体力牌，恢复它们的全部体力并加入手牌。它们本回合的费用各减少1。"
+  },
+  "ChevalGrandSlay:UnwaveringStep": {
+    "NAME": "即使有些笨拙",
+    "DESCRIPTION": "每个你的回合，打出基础费用至少为1的攻击牌后，获得!M!点格挡。"
+  },
+  "ChevalGrandSlay:WinningRhythm": {
+    "NAME": "身手敏捷",
+    "DESCRIPTION": "你的回合中，每打出1张技能牌后，获得!M!点格挡。"
+  },
+  "ChevalGrandSlay:WeightGain": {
+    "NAME": "发胖！",
+    "DESCRIPTION": "无效果。"
+  },
+  "ChevalGrandSlay:Ball": {
+    "NAME": "球",
+    "DESCRIPTION": "造成!D!点伤害。 NL 消耗。"
+  },
+  "ChevalGrandSlay:EmptyShell": {
+    "NAME": "让我休息一下...",
+    "DESCRIPTION": "没有效果，这张牌的出现有可能是你复制了一张体力值为0的卡牌 NL 消耗。"
+  },
+  "ChevalGrandSlay:EnergyDrink": {
+    "NAME": "超大分汉堡肉",
+    "DESCRIPTION": "回复6点生命。 NL 本场战斗中，每打出6张超大份汉堡肉，将1张发胖！加入手牌。 NL 消耗。"
+  },
+  "ChevalGrandSlay:LittleBravePlus": {
+    "NAME": "自信大方",
+    "DESCRIPTION": "对单个敌人造成!D!点伤害。 NL 获得 !B! 点格挡"
+  },
+  "ChevalGrandSlay:AllOut": {
+    "NAME": "我也想被记住",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 选择手中另1张仍有体力的牌。按其剩余体力次数免费打出。"
+  },
+  "ChevalGrandSlay:AimForTheFinish": {
+    "NAME": "心中的终点",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 从抽牌堆或弃牌堆选择!M!张牌加入手牌。本回合，这些牌的!M!费用各减少1。"
+  },
+  "ChevalGrandSlay:BorrowFromThePast": {
+    "NAME": "光的背影",
+    "DESCRIPTION": "每个你的回合开始时，休整牌堆中每有1张牌，获得2点格挡。"
+  },
+  "ChevalGrandSlay:BorrowForceEscape": {
+    "NAME": "不惧不安",
+    "DESCRIPTION": "每当你获得虚弱或脆弱时，该次获得的层数减少!M!层，最低为0层。"
+  },
+  "ChevalGrandSlay:ChainStep": {
+    "NAME": "脚步渐轻",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 造成!D!点伤害。 NL 本回合打出至少2张攻击牌后，本牌在本回合内费用减少1。"
+  },
+  "ChevalGrandSlay:ChaseTheWind": {
+    "NAME": "衣角逐风",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 造成!D!点伤害。 NL 选择从抽牌堆、弃牌堆或休整牌堆抽!M!张牌。"
+  },
+  "ChevalGrandSlay:ClamToFight": {
+    "NAME": "无声的决意",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 获得!M!层活力"
+  },
+  "ChevalGrandSlay:CounterAttack": {
+    "NAME": "我也会还手",
+    "DESCRIPTION": "获得 !B! 点格挡。 NL 获得!M!层我也会还手"
+  },
+  "ChevalGrandSlay:Domain": {
+    "NAME": "我也能耀眼",
+    "DESCRIPTION": "进入领域，持续2个你的回合，计入本回合 NL 消耗。 NL 进入时回满休整牌的体力，手牌满时移入抽牌堆。进入及每回合开始获得4点能量，攻击伤害提高80%。倒计时结束时若战斗尚未结束，你会死亡。"
+  },
+  "ChevalGrandSlay:EchoOfTheFinish": {
+    "NAME": "打向远方!",
+    "DESCRIPTION": "每次击杀敌人时，将该次伤害超出其剩余生命的部分，对所有敌人造成等量伤害"
+  },
+  "ChevalGrandSlay:FillTheGap": {
+    "NAME": "小小的关照",
+    "DESCRIPTION": "每个你的回合，首次从休整牌堆移出体力牌时，使其额外恢复1点体力。",
+    "UPGRADE_DESCRIPTION": "每个你的回合，首次从休整牌堆移出体力牌时，使其额外恢复1点体力，并获得!M!。"
+  },
+  "ChevalGrandSlay:FinalKick": {
+    "NAME": "末脚",
+    "DESCRIPTION": "仅当!M!为0、抽牌堆和弃牌堆中均无体力牌，且休整牌堆非空时可打出。 NL 对所有敌人造成!D!点伤害。 NL 保留。"
+  },
+  "ChevalGrandSlay:FinishLineEcho": {
+    "NAME": "光的残响",
+    "DESCRIPTION": "你的回合中，每有1张你的牌进入休整牌堆，对所有敌人造成!M!点伤害。"
+  },
+  "ChevalGrandSlay:ForgeAhead": {
+    "NAME": "进攻姿态",
+    "DESCRIPTION": "若你的回合已打出3张攻击牌，获得!M!，对所有敌人造成18点伤害。"
+  },
+  "ChevalGrandSlay:KeepSomeInReserve": {
+    "NAME": "昨日的余力",
+    "DESCRIPTION": "你的回合结束时，保留未使用的!M!"
+  },
+  "ChevalGrandSlay:LongSprint": {
+    "NAME": "迟来的疾驰",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 造成!D!点伤害。 NL 若此牌在你的上回合结束时被保留，上述伤害包含!M!点加成。 NL 保留。"
+  },
+  "ChevalGrandSlay:MeasuredAdvanceAndRetreat": {
+    "NAME": "稳守本垒",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 敌方回合中，你因敌方攻击损失的生命合计至多为!M!点。"
+  },
+  "ChevalGrandSlay:NeverStepBehind": {
+    "NAME": "不甘的次席",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 获得!B!点格挡。 NL 对所有敌人施加!M!层易伤。"
+  },
+  "ChevalGrandSlay:NoConcession": {
+    "NAME": "好胜的内心",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 获得!B!点格挡。 NL 敌方回合中，每次完全格挡一段攻击伤害时，对所有敌人造成!M!点伤害。"
+  },
+  "ChevalGrandSlay:NoRegretsEnding": {
+    "NAME": "没跑完的话",
+    "DESCRIPTION": "每有1张你的牌进入休整牌堆时，下一张攻击牌的每段伤害增加!M!点。"
+  },
+  "ChevalGrandSlay:OldWallNewEdge": {
+    "NAME": "放手一搏",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/4. NL 向抽牌堆加入2张晕眩。对单个敌人造成!D!点伤害2次。"
+  },
+  "ChevalGrandSlay:OneBeatAhead": {
+    "NAME": "憧憬的前方",
+    "DESCRIPTION": "本回合结束后，立即获得一个额外回合。该额外回合开始时，获得1点力量和1点敏捷。 NL 消耗。"
+  },
+  "ChevalGrandSlay:PourIntoOneMove": {
+    "NAME": "全力投球",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 选择手中1张体力攻击牌。将其立刻免费打出。 NL 该牌的首次攻击额外命中1次。"
+  },
+  "ChevalGrandSlay:PrefectDefend": {
+    "NAME": "自制心",
+    "DESCRIPTION": "每个你的回合开始时，获得!M!点格挡。 NL 每次完全格挡一段攻击伤害时，获得!M!并抽1张牌。"
+  },
+  "ChevalGrandSlay:RegainTheEdge": {
+    "NAME": "说我也可以",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 移除自身至多X层异常状态。 NL 对所有敌人造成伤害，伤害为实际移除层数的10倍。"
+  },
+  "ChevalGrandSlay:RenewTheContest": {
+    "NAME": "再较量一次",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 从休整牌堆选择1张体力攻击牌，恢复全部体力并加入手牌。下次打出该牌时，每段攻击伤害增加!M!点。"
+  },
+  "ChevalGrandSlay:RenewTheOldPact": {
+    "NAME": "那时约定的",
+    "DESCRIPTION": "你的回合开始时，获得!M!和4点力量。",
+    "UPGRADE_DESCRIPTION": "你的回合开始时，获得!M!和4点力量，并抽1张牌。"
+  },
+  "ChevalGrandSlay:ReserveAStep": {
+    "NAME": "还能再钓一条",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/6. NL 获得!B!点格挡。 NL 选择手中另1张仍有体力的牌，本场战斗中为其附加余兴未尽。"
+  },
+  "ChevalGrandSlay:RewriteFate": {
+    "NAME": "青空下的约定",
+    "DESCRIPTION": "体力 !ChevalGrandSlay:Stamina!/2. NL 从休整牌堆选择至多4张体力牌，恢复全部体力并免费打出，并置入弃牌堆。"
+  },
+  "ChevalGrandSlay:SubZero": {
+    "NAME": "夏凪",
+    "DESCRIPTION": "丢弃1张牌。获得!M!层覆甲。 NL 为休整牌堆中的所有体力牌各恢复1点体力。将回满体力的牌移入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "丢弃1张牌。获得!M!层覆甲。 NL 为休整牌堆中的所有体力牌各恢复2点体力。将回满体力的牌移入抽牌堆。"
+  },
+  "ChevalGrandSlay:SuppressTheirSpirit": {
+    "NAME": "请记住我",
+    "DESCRIPTION": "对单个敌人造成!D!点伤害。 NL 施加你在看别的孩子吗?"
+  },
+  "ChevalGrandSlay:TurnTheOldPage": {
+    "NAME": "昨日的练习",
+    "DESCRIPTION": "从手牌中选择1张来自牌组且至少剩余2点体力的牌，消耗其2点体力。抽!M!张牌。 NL 消耗。"
+  },
+  "ChevalGrandSlay:TurnTogether": {
+    "NAME": "以后...再一起跑吧",
+    "DESCRIPTION": "你的回合中，每有1张你的牌从休整牌堆移出，抽1张牌。",
+    "UPGRADE_DESCRIPTION": "你的回合中，每有1张你的牌从休整牌堆移出，抽1张牌并获得!M!点格挡。"
+  },
+  "ChevalGrandSlay:WideView": {
+    "NAME": "我憧憬的蓝",
+    "DESCRIPTION": "本场战斗，手牌上限增加2张。 NL 每回合开始时，最早进入休整牌堆的2张体力牌各恢复!M!点体力。恢复满体力后，将该牌放入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "本场战斗，手牌上限增加2张。 NL 每回合开始时，最早进入休整牌堆的3张体力牌各恢复!M!点体力。恢复满体力后，将该牌放入抽牌堆。"
+  }
+}
