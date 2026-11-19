@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.OverflowEchoPower;
 
 public final class EchoOfTheFinish extends RaceCard {
     public EchoOfTheFinish() {
@@ -12,7 +13,7 @@ public final class EchoOfTheFinish extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.OVERFLOW, 999);
+        apply(new OverflowEchoPower(player, 999));
     }
 
     @Override

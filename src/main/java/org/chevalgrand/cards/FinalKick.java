@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+import org.chevalgrand.mechanics.Stamina;
 
 public final class FinalKick extends RaceCard {
     public FinalKick() {
@@ -20,7 +21,7 @@ public final class FinalKick extends RaceCard {
     }
 
     private boolean ready(AbstractPlayer player) {
-        return EnergyPanel.totalCount == 0 && !Stamina.REST.isEmpty()
+        return EnergyPanel.totalCount == 0 && !Stamina.restingCards().isEmpty()
                 && player.drawPile.group.stream().noneMatch(c -> Stamina.has(c, 0))
                 && player.discardPile.group.stream().noneMatch(c -> Stamina.has(c, 0));
     }

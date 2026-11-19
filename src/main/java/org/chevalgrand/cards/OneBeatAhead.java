@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.OneBeatAheadPower;
 
 public final class OneBeatAhead extends RaceCard {
     public OneBeatAhead() {
@@ -13,7 +14,7 @@ public final class OneBeatAhead extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.EXTRA_TURN, 1);
+        apply(new OneBeatAheadPower(player, 1));
     }
 
     @Override

@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.FullBlockCounterPower;
 
 public final class NoConcession extends RaceCard {
     public NoConcession() {
@@ -14,7 +15,7 @@ public final class NoConcession extends RaceCard {
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
         gainBlock(player, block);
-        apply(player, RaceAbility.Effect.FULL_COUNTER, magicNumber);
+        apply(new FullBlockCounterPower(player, magicNumber));
     }
 
     @Override

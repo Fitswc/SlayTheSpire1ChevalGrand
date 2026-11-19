@@ -1,8 +1,8 @@
 package org.chevalgrand.cards;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.RemainingUsesSensePower;
 
 public final class RemainingUsesSense extends RaceCard {
     public RemainingUsesSense() {
@@ -14,7 +14,7 @@ public final class RemainingUsesSense extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        addToBot(new ApplyPowerAction(player, player, new RacePower(RacePower.Effect.RemainingUsesSense, player, magicNumber)));
+        apply(new RemainingUsesSensePower(player, magicNumber));
     }
 
     @Override

@@ -283,7 +283,7 @@
   },
   "ChevalGrandSlay:ForgeAhead": {
     "NAME": "进攻姿态",
-    "DESCRIPTION": "若你的回合已打出3张攻击牌，获得!M!，对所有敌人造成18点伤害。"
+    "DESCRIPTION": "每回合打出第3张攻击牌后，获得1点能量，并对所有敌人造成18点伤害。"
   },
   "ChevalGrandSlay:KeepSomeInReserve": {
     "NAME": "昨日的余力",
@@ -368,5 +368,17 @@
     "NAME": "我憧憬的蓝",
     "DESCRIPTION": "本场战斗，手牌上限增加2张。 NL 每回合开始时，最早进入休整牌堆的2张体力牌各恢复!M!点体力。恢复满体力后，将该牌放入抽牌堆。",
     "UPGRADE_DESCRIPTION": "本场战斗，手牌上限增加2张。 NL 每回合开始时，最早进入休整牌堆的3张体力牌各恢复!M!点体力。恢复满体力后，将该牌放入抽牌堆。"
+  },
+  "ChevalGrandSlay:ChaseTheWindDrawPile": {
+    "NAME": "抽牌堆",
+    "DESCRIPTION": "从抽牌堆顶抽牌。"
+  },
+  "ChevalGrandSlay:ChaseTheWindDiscardPile": {
+    "NAME": "弃牌堆",
+    "DESCRIPTION": "从弃牌堆随机抽牌。"
+  },
+  "ChevalGrandSlay:ChaseTheWindRestPile": {
+    "NAME": "休整牌堆",
+    "DESCRIPTION": "从休整牌堆随机抽牌。"
   }
 }

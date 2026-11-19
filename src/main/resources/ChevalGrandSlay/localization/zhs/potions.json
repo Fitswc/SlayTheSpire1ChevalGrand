@@ -1,0 +1,14 @@
+{
+  "ChevalGrandSlay:EndlessStaminaPotion": {
+    "NAME": "无尽体力药水",
+    "DESCRIPTIONS": [
+      "本回合，打出体力牌不消耗体力。"
+    ]
+  },
+  "ChevalGrandSlay:PotentialPotion": {
+    "NAME": "潜能药水",
+    "DESCRIPTIONS": [
+      "从3张随机、可生成的体力牌中选择1张，加入手牌。本场战斗中，该牌耗能为0，体力及体力上限为999，并获得保留。该牌仅存在于本次战斗。"
+    ]
+  }
+}

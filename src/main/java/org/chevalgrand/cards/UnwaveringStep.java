@@ -1,8 +1,8 @@
 package org.chevalgrand.cards;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.UnwaveringStepPower;
 
 public final class UnwaveringStep extends RaceCard {
     public UnwaveringStep() {
@@ -13,7 +13,7 @@ public final class UnwaveringStep extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        addToBot(new ApplyPowerAction(player, player, new RacePower(RacePower.Effect.UnwaveringStep, player, magicNumber)));
+        apply(new UnwaveringStepPower(player, magicNumber));
     }
 
     @Override

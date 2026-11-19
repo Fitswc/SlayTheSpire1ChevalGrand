@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.DomainPower;
 
 public final class Domain extends RaceCard {
     public Domain() {
@@ -12,11 +13,11 @@ public final class Domain extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        if (!player.hasPower(RaceAbility.Effect.DOMAIN.id)) apply(player, RaceAbility.Effect.DOMAIN, 2);
+        if (!player.hasPower(DomainPower.POWER_ID)) apply(new DomainPower(player, 2));
     }
 
     @Override public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        return !p.hasPower(RaceAbility.Effect.DOMAIN.id) && super.canUse(p, m);
+        return !p.hasPower(DomainPower.POWER_ID) && super.canUse(p, m);
     }
 
     @Override

@@ -2,7 +2,6 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-
 import org.chevalgrand.ChevalGrandSlayMod;
 
 public final class Defend extends StarterCard {

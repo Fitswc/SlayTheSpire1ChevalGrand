@@ -1,0 +1,14 @@
+{
+  "ChevalGrandSlay:EndlessStaminaPotion": {
+    "NAME": "Endless Stamina Potion",
+    "DESCRIPTIONS": [
+      "This turn, playing Stamina cards does not consume Stamina."
+    ]
+  },
+  "ChevalGrandSlay:PotentialPotion": {
+    "NAME": "Potential Potion",
+    "DESCRIPTIONS": [
+      "Choose 1 of 3 random, generatable Stamina cards to add to your Hand. This combat, it costs 0 Energy, has 999 Stamina and maximum Stamina, and gains Retain. It exists only for this combat."
+    ]
+  }
+}

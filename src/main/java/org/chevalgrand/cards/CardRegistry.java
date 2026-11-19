@@ -4,6 +4,7 @@ import basemod.BaseMod;
 import basemod.abstracts.DynamicVariable;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import org.chevalgrand.ChevalGrandSlayMod;
+import org.chevalgrand.mechanics.Stamina;
 
 public final class CardRegistry {
     private CardRegistry() {
@@ -17,8 +18,8 @@ public final class CardRegistry {
         BaseMod.addDynamicVariable(new DynamicVariable() {
             @Override public String key() { return ChevalGrandSlayMod.id("Stamina"); }
             @Override public boolean isModified(AbstractCard card) { return value(card) != baseValue(card); }
-            @Override public int value(AbstractCard card) { return ((RaceCard) card).remaining; }
-            @Override public int baseValue(AbstractCard card) { return ((RaceCard) card).maxStamina; }
+            @Override public int value(AbstractCard card) { return ((RaceCard) card).remainingStamina(); }
+            @Override public int baseValue(AbstractCard card) { return ((RaceCard) card).maxStamina(); }
             @Override public boolean upgraded(AbstractCard card) { return false; }
         });
 
@@ -85,6 +86,9 @@ public final class CardRegistry {
         BaseMod.addCard(new BorrowForceEscape());
         BaseMod.addCard(new ChainStep());
         BaseMod.addCard(new ChaseTheWind());
+        BaseMod.addCard(new ChaseTheWindDrawPile());
+        BaseMod.addCard(new ChaseTheWindDiscardPile());
+        BaseMod.addCard(new ChaseTheWindRestPile());
         BaseMod.addCard(new ClamToFight());
         BaseMod.addCard(new CounterAttack());
         BaseMod.addCard(new Domain());

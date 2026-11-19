@@ -1,0 +1,155 @@
+{
+  "ChevalGrandSlay:Power:BORROW": {
+    "NAME": "A Silhouette of Light",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain 2 Block for each card in your Rest Pile."
+    ]
+  },
+  "ChevalGrandSlay:Power:RESIST": {
+    "NAME": "Unfazed by Unease",
+    "DESCRIPTIONS": [
+      "Whenever you would gain Weak or Frail, reduce the stacks gained by {amount}, to a minimum of 0."
+    ]
+  },
+  "ChevalGrandSlay:Power:COUNTER": {
+    "NAME": "I Can Fight Back, Too",
+    "DESCRIPTIONS": [
+      "Until the end of the enemy turn, whenever your Block absorbs damage from an attack, deal {amount} damage to a random enemy."
+    ]
+  },
+  "ChevalGrandSlay:Power:DOMAIN": {
+    "NAME": "Domain",
+    "DESCRIPTIONS": [
+      "Attack cards deal 80% more attack damage. Gain 4 Energy immediately and at the start of each of your subsequent turns. On entering, fully restore the Stamina of cards in your Rest Pile and add them to your hand, or your draw pile if your hand is full. NL Turns remaining, including this turn: {amount}. If combat is still ongoing when Domain expires, you die."
+    ]
+  },
+  "ChevalGrandSlay:Power:OVERFLOW": {
+    "NAME": "Hit It Far!",
+    "DESCRIPTIONS": [
+      "Whenever you kill an enemy, deal the excess damage to ALL remaining enemies, up to {amount} damage each."
+    ]
+  },
+  "ChevalGrandSlay:Power:FILL": {
+    "NAME": "A Little Care",
+    "DESCRIPTIONS": [
+      "The first time each of your turns a Stamina card leaves your Rest Pile, restore 1 additional Stamina to it.",
+      "The first time each of your turns a Stamina card leaves your Rest Pile, restore 1 additional Stamina to it, and gain 1 Energy."
+    ]
+  },
+  "ChevalGrandSlay:Power:FINISH": {
+    "NAME": "Echoes of Light",
+    "DESCRIPTIONS": [
+      "During your turn, whenever one of your cards enters your Rest Pile, deal {amount} damage to all enemies."
+    ]
+  },
+  "ChevalGrandSlay:Power:FORGE": {
+    "NAME": "Offensive Stance",
+    "DESCRIPTIONS": [
+      "Each turn, after you play your third Attack, gain 1 Energy and deal 18 damage to ALL enemies."
+    ]
+  },
+  "ChevalGrandSlay:Power:ENERGY": {
+    "NAME": "Yesterday's Reserves",
+    "DESCRIPTIONS": [
+      "At the end of your turn, retain all unspent Energy."
+    ]
+  },
+  "ChevalGrandSlay:Power:CAP": {
+    "NAME": "Guarding Home Plate",
+    "DESCRIPTIONS": [
+      "During the enemy turn, lose at most {amount} HP in total from enemy attacks."
+    ]
+  },
+  "ChevalGrandSlay:Power:FULL_COUNTER": {
+    "NAME": "Competitive Spirit",
+    "DESCRIPTIONS": [
+      "During the enemy turn, whenever you fully Block a hit from an attack, deal {amount} damage to ALL enemies. Expires at the end of the enemy turn."
+    ]
+  },
+  "ChevalGrandSlay:Power:NOREGRETS": {
+    "NAME": "An Unfinished Run",
+    "DESCRIPTIONS": [
+      "Whenever one of your cards enters your Rest Pile, add {amount} damage to each hit of your next Attack. This bonus stacks and carries over between turns."
+    ]
+  },
+  "ChevalGrandSlay:Power:EXTRA_TURN": {
+    "NAME": "Beyond Admiration",
+    "DESCRIPTIONS": [
+      "Take an extra turn after this turn. At the start of that turn, gain 1 Strength and 1 Dexterity."
+    ]
+  },
+  "ChevalGrandSlay:Power:PERFECT": {
+    "NAME": "Self-Control",
+    "DESCRIPTIONS": [
+      "At the start of each of your turns, gain {amount} Block. Whenever you fully Block a hit from an attack, gain 1 Energy and draw 1 card."
+    ]
+  },
+  "ChevalGrandSlay:Power:PACT": {
+    "NAME": "The Promise We Made",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain 1 Energy and 4 Strength.",
+      "At the start of your turn, gain 1 Energy and 4 Strength, then draw 1 card."
+    ]
+  },
+  "ChevalGrandSlay:Power:NO_POSITIVE": {
+    "NAME": "Are You Looking at Someone Else?",
+    "DESCRIPTIONS": [
+      "Cannot gain buffs."
+    ]
+  },
+  "ChevalGrandSlay:Power:TOGETHER": {
+    "NAME": "Let's Run Together Again",
+    "DESCRIPTIONS": [
+      "During your turn, whenever one of your cards leaves your Rest Pile, draw 1 card.",
+      "During your turn, whenever one of your cards leaves your Rest Pile, draw 1 card and gain {amount} Block."
+    ]
+  },
+  "ChevalGrandSlay:Power:WIDE": {
+    "NAME": "The Blue I Dream Of",
+    "DESCRIPTIONS": [
+      "Increase your hand limit by {amount}. At the start of your turn, restore {recovery} Stamina to the {count} oldest Stamina cards in your Rest Pile. Move each to your Draw Pile when its Stamina is full."
+    ]
+  },
+  "ChevalGrandSlay:Power:ENDLESS": {
+    "NAME": "Still Able to Run",
+    "DESCRIPTIONS": [
+      "This turn, playing Stamina cards does not consume Stamina."
+    ]
+  },
+  "ChevalGrandSlay:FlowingAssault": {
+    "NAME": "A Voyage with the Wind",
+    "DESCRIPTIONS": [
+      "Each turn, draw {amount} cards after each Attack you play, starting with your fourth Attack that turn."
+    ]
+  },
+  "ChevalGrandSlay:UnwaveringStep": {
+    "NAME": "Clumsy Persistence",
+    "DESCRIPTIONS": [
+      "The first time each of your turns you play an Attack with a base Energy cost of at least 2, gain {amount} Block."
+    ]
+  },
+  "ChevalGrandSlay:WinningRhythm": {
+    "NAME": "Nimble",
+    "DESCRIPTIONS": [
+      "During your turn, whenever you play a Skill, gain {amount} Block."
+    ]
+  },
+  "ChevalGrandSlay:RemainingUsesSense": {
+    "NAME": "Stubborn Through Fatigue",
+    "DESCRIPTIONS": [
+      "During your turn, whenever one of your cards enters your Rest Pile, deal {amount} damage to a random enemy."
+    ]
+  },
+  "ChevalGrandSlay:OldRoadWarmth": {
+    "NAME": "Little by Little",
+    "DESCRIPTIONS": [
+      "During your turn, whenever a card enters your Rest Pile, gain {amount} Block."
+    ]
+  },
+  "ChevalGrandSlay:Power:VIGOR": {
+    "NAME": "Vigor",
+    "DESCRIPTIONS": [
+      "Your next Attack deals {amount} additional damage per hit."
+    ]
+  }
+}

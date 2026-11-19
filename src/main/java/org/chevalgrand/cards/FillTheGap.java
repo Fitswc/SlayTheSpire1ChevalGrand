@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.FillTheGapPower;
 
 public final class FillTheGap extends RaceCard {
     public FillTheGap() {
@@ -12,7 +13,7 @@ public final class FillTheGap extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.FILL, magicNumber);
+        apply(new FillTheGapPower(player, magicNumber));
     }
 
     @Override

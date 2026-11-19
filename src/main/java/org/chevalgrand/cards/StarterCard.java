@@ -9,8 +9,8 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import org.chevalgrand.ChevalGrandEnums;
 import org.chevalgrand.ChevalGrandSlayMod;
+import org.chevalgrand.characters.ChevalGrandEnums;
 
 abstract class StarterCard extends CustomCard {
     private final int damageUpgrade;

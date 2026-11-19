@@ -4,6 +4,8 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.PlatedArmorPower;
+import org.chevalgrand.mechanics.CardMoves;
+import org.chevalgrand.mechanics.Stamina;
 
 public final class SubZero extends RaceCard {
     public SubZero() {
@@ -17,7 +19,7 @@ public final class SubZero extends RaceCard {
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
         addToBot(CardMoves.hand(this, c -> true, CardMoves::discard));
         addToBot(new ApplyPowerAction(player, player, new PlatedArmorPower(player, magicNumber)));
-        addToBot(CardMoves.run(() -> new java.util.ArrayList<>(Stamina.REST)
+        addToBot(CardMoves.run(() -> new java.util.ArrayList<>(Stamina.restingCards())
                 .forEach(c -> Stamina.moveToDraw(c, upgraded ? 2 : 1))));
     }
 

@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.NoRegretsEndingPower;
 
 public final class NoRegretsEnding extends RaceCard {
     public NoRegretsEnding() {
@@ -12,7 +13,7 @@ public final class NoRegretsEnding extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.NOREGRETS, magicNumber);
+        apply(new NoRegretsEndingPower(player, magicNumber));
     }
 
     @Override

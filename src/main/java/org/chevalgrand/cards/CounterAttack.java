@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.CounterAttackPower;
 
 public final class CounterAttack extends RaceCard {
     public CounterAttack() {
@@ -14,7 +15,7 @@ public final class CounterAttack extends RaceCard {
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
         gainBlock(player, block);
-        apply(player, RaceAbility.Effect.COUNTER, magicNumber);
+        apply(new CounterAttackPower(player, magicNumber));
     }
 
     @Override

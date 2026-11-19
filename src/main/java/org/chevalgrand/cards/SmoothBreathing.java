@@ -3,6 +3,7 @@ package org.chevalgrand.cards;
 import com.megacrit.cardcrawl.actions.common.EmptyDeckShuffleAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.mechanics.CardSelection;
 
 public final class SmoothBreathing extends RaceCard {
     public SmoothBreathing() {

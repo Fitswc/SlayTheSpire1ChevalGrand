@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.EnemyAttackLossCapPower;
 
 public final class MeasuredAdvanceAndRetreat extends RaceCard {
     public MeasuredAdvanceAndRetreat() {
@@ -12,7 +13,7 @@ public final class MeasuredAdvanceAndRetreat extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.CAP, magicNumber);
+        apply(new EnemyAttackLossCapPower(player, magicNumber));
     }
 
     @Override

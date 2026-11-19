@@ -1,0 +1,37 @@
+{
+  "ChevalGrandSlay:Stamina": {
+    "TEXT": [
+      "Stamina",
+      "Each play consumes 1 Stamina. Stamina carries over between combats. At 0 Stamina, the card enters the Rest Pile, until you recover it."
+    ]
+  },
+  "ChevalGrandSlay:RestPile": {
+    "TEXT": [
+      "Rest Pile",
+      "Stamina cards enter this pile when they run out of Stamina. Cards and powers can restore their Stamina and move them out."
+    ]
+  },
+  "ChevalGrandSlay:Forget": {
+    "TEXT": [
+      "Forget",
+      "Remove up to 4 cards with Stamina from your deck.",
+      "There are no removable Stamina cards in your deck.",
+      "Choose 1 to 4 cards with Stamina to Remove."
+    ]
+  },
+  "ChevalGrandSlay:StaminaReward": {
+    "TEXT": [
+      "Add a Stamina card",
+      "Fully restore a card's Stamina",
+      "Choose a Stamina card to add to your deck.",
+      "Choose a card with missing Stamina to restore to full",
+      " (choose one)"
+    ]
+  },
+  "ChevalGrandSlay:Potential": {
+    "TEXT": [
+      "Choose a card to add to your hand.",
+      "Retain."
+    ]
+  }
+}

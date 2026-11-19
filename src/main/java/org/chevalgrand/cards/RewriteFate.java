@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.mechanics.CardMoves;
 
 public final class RewriteFate extends RaceCard {
     public RewriteFate() {
@@ -13,7 +14,7 @@ public final class RewriteFate extends RaceCard {
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
         addToBot(CardMoves.rest(4, true, c -> true, c -> {
-            c.setRemaining(c.maxStamina);
+            c.setRemaining(c.maxStamina());
             CardMoves.play(c, 1, null, true, false);
         }));
     }

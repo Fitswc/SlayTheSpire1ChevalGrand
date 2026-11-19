@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.NoPositivePower;
 
 public final class SuppressTheirSpirit extends RaceCard {
     public SuppressTheirSpirit() {
@@ -13,7 +14,7 @@ public final class SuppressTheirSpirit extends RaceCard {
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
         hit(player, enemy, damage);
-        apply(enemy, RaceAbility.Effect.NO_POSITIVE, 1);
+        apply(new NoPositivePower(enemy, 1));
     }
 
     @Override

@@ -283,7 +283,7 @@
   },
   "ChevalGrandSlay:ForgeAhead": {
     "NAME": "Offensive Stance",
-    "DESCRIPTION": "If you have played 3 Attacks this turn, gain 1 Energy and deal 18 damage to all enemies."
+    "DESCRIPTION": "Each turn, after you play your third Attack, gain 1 Energy and deal 18 damage to ALL enemies."
   },
   "ChevalGrandSlay:KeepSomeInReserve": {
     "NAME": "Yesterday's Reserves",
@@ -368,5 +368,17 @@
     "NAME": "The Blue I Dream Of",
     "DESCRIPTION": "Increase your hand limit by 2 this combat. NL At the start of your turn, restore !M! Stamina to the 2 oldest Stamina cards in your Rest Pile. Move each to your Draw Pile when its Stamina is full.",
     "UPGRADE_DESCRIPTION": "Increase your hand limit by 2 this combat. NL At the start of your turn, restore !M! Stamina to the 3 oldest Stamina cards in your Rest Pile. Move each to your Draw Pile when its Stamina is full."
+  },
+  "ChevalGrandSlay:ChaseTheWindDrawPile": {
+    "NAME": "Draw Pile",
+    "DESCRIPTION": "Draw from the top of your draw pile."
+  },
+  "ChevalGrandSlay:ChaseTheWindDiscardPile": {
+    "NAME": "Discard Pile",
+    "DESCRIPTION": "Draw random cards from your discard pile."
+  },
+  "ChevalGrandSlay:ChaseTheWindRestPile": {
+    "NAME": "Rest Pile",
+    "DESCRIPTION": "Draw random cards from your Rest Pile."
   }
 }

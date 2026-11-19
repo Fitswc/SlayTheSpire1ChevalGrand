@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.ResistWeakFrailPower;
 
 public final class BorrowForceEscape extends RaceCard {
     public BorrowForceEscape() {
@@ -12,7 +13,7 @@ public final class BorrowForceEscape extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.RESIST, magicNumber);
+        apply(new ResistWeakFrailPower(player, magicNumber));
     }
 
     @Override

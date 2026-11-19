@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.ForgeAheadPower;
 
 public final class ForgeAhead extends RaceCard {
     public ForgeAhead() {
@@ -12,7 +13,7 @@ public final class ForgeAhead extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.FORGE, 1);
+        apply(new ForgeAheadPower(player, 1));
     }
 
     @Override

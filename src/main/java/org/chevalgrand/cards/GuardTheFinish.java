@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.mechanics.Stamina;
 
 public final class GuardTheFinish extends RaceCard {
     public GuardTheFinish() {
@@ -14,7 +15,7 @@ public final class GuardTheFinish extends RaceCard {
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
         gainBlock(player, block);
-        gainBlock(player, magicNumber * Stamina.REST.size());
+        gainBlock(player, magicNumber * Stamina.restingCards().size());
     }
 
     @Override

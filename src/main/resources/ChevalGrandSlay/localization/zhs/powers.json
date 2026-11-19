@@ -1,0 +1,155 @@
+{
+  "ChevalGrandSlay:Power:BORROW": {
+    "NAME": "光的背影",
+    "DESCRIPTIONS": [
+      "你的回合开始时，休整牌堆中每有1张牌，获得2点格挡。"
+    ]
+  },
+  "ChevalGrandSlay:Power:RESIST": {
+    "NAME": "不惧不安",
+    "DESCRIPTIONS": [
+      "每当你即将获得虚弱或脆弱时，该次获得的层数减少{amount}层，最低降至0层。"
+    ]
+  },
+  "ChevalGrandSlay:Power:COUNTER": {
+    "NAME": "我也会还手",
+    "DESCRIPTIONS": [
+      "直到敌方回合结束，每当你的格挡吸收攻击伤害时，对随机敌人造成{amount}点伤害。"
+    ]
+  },
+  "ChevalGrandSlay:Power:DOMAIN": {
+    "NAME": "领域",
+    "DESCRIPTIONS": [
+      "攻击牌的攻击伤害提高80%。立即获得4点能量，此后每个你的回合开始时额外获得4点能量。进入时，将休整牌堆中的牌恢复全部体力并加入手牌，手牌满时改为置入抽牌堆。 NL 还剩{amount}个你的回合，计入本回合。倒计时结束时，若战斗仍在进行，你会死亡。"
+    ]
+  },
+  "ChevalGrandSlay:Power:OVERFLOW": {
+    "NAME": "打向远方!",
+    "DESCRIPTIONS": [
+      "每次击杀敌人时，将该次伤害超出其剩余生命的部分，对所有敌人造成等量伤害，最多{amount}点。"
+    ]
+  },
+  "ChevalGrandSlay:Power:FILL": {
+    "NAME": "小小的关照",
+    "DESCRIPTIONS": [
+      "每个你的回合，首次从休整牌堆移出体力牌时，使其额外恢复1点体力。",
+      "每个你的回合，首次从休整牌堆移出体力牌时，使其额外恢复1点体力，并获得1点能量。"
+    ]
+  },
+  "ChevalGrandSlay:Power:FINISH": {
+    "NAME": "光的残响",
+    "DESCRIPTIONS": [
+      "你的回合中，每有1张你的牌进入休整牌堆，就对所有敌人造成{amount}点伤害。"
+    ]
+  },
+  "ChevalGrandSlay:Power:FORGE": {
+    "NAME": "进攻姿态",
+    "DESCRIPTIONS": [
+      "每回合打出第3张攻击牌后，获得1点能量，并对所有敌人造成18点伤害。"
+    ]
+  },
+  "ChevalGrandSlay:Power:ENERGY": {
+    "NAME": "昨日的余力",
+    "DESCRIPTIONS": [
+      "你的回合结束时，保留未使用的能量"
+    ]
+  },
+  "ChevalGrandSlay:Power:CAP": {
+    "NAME": "稳守本垒",
+    "DESCRIPTIONS": [
+      "敌方回合中，你因敌方攻击损失的生命合计至多为{amount}点。"
+    ]
+  },
+  "ChevalGrandSlay:Power:FULL_COUNTER": {
+    "NAME": "好胜心",
+    "DESCRIPTIONS": [
+      "敌方回合中，每次完全格挡一段攻击伤害时，对所有敌人造成{amount}点伤害。敌方回合结束时移除。"
+    ]
+  },
+  "ChevalGrandSlay:Power:NOREGRETS": {
+    "NAME": "没跑完的话",
+    "DESCRIPTIONS": [
+      "每有1张你的牌进入休整牌堆时，下一张攻击牌的每段伤害增加{amount}点。加成可叠加并跨回合保留。"
+    ]
+  },
+  "ChevalGrandSlay:Power:EXTRA_TURN": {
+    "NAME": "憧憬的前方",
+    "DESCRIPTIONS": [
+      "本回合结束后获得一个额外回合。该额外回合开始时，获得1点力量和1点敏捷。"
+    ]
+  },
+  "ChevalGrandSlay:Power:PERFECT": {
+    "NAME": "自制心",
+    "DESCRIPTIONS": [
+      "每个你的回合开始时，获得{amount}点格挡。每次完全格挡一段攻击伤害时，获得1点能量并抽1张牌。"
+    ]
+  },
+  "ChevalGrandSlay:Power:PACT": {
+    "NAME": "那时的约定",
+    "DESCRIPTIONS": [
+      "你的回合开始时，获得1点能量和4点力量。",
+      "你的回合开始时，获得1点能量和4点力量，并抽1张牌。"
+    ]
+  },
+  "ChevalGrandSlay:Power:NO_POSITIVE": {
+    "NAME": "你在看别的孩子吗?",
+    "DESCRIPTIONS": [
+      "无法获得正面效果。"
+    ]
+  },
+  "ChevalGrandSlay:Power:TOGETHER": {
+    "NAME": "再一起跑吧",
+    "DESCRIPTIONS": [
+      "你的回合中，每有1张你的牌从休整牌堆移出，抽1张牌。",
+      "你的回合中，每有1张你的牌从休整牌堆移出，抽1张牌并获得{amount}点格挡。"
+    ]
+  },
+  "ChevalGrandSlay:Power:WIDE": {
+    "NAME": "我憧憬的蓝",
+    "DESCRIPTIONS": [
+      "手牌上限增加{amount}张。每回合开始时，为休整牌堆里最早进入的{count}张体力牌各恢复{recovery}点体力。恢复满体力后，将该牌放入抽牌堆。"
+    ]
+  },
+  "ChevalGrandSlay:Power:ENDLESS": {
+    "NAME": "尚能奔跑",
+    "DESCRIPTIONS": [
+      "本回合，打出体力牌不消耗体力。"
+    ]
+  },
+  "ChevalGrandSlay:FlowingAssault": {
+    "NAME": "顺风的航程",
+    "DESCRIPTIONS": [
+      "每个你的回合，从第4张攻击牌起，每打出1张攻击牌后，抽{amount}张牌。"
+    ]
+  },
+  "ChevalGrandSlay:UnwaveringStep": {
+    "NAME": "笨拙的坚持",
+    "DESCRIPTIONS": [
+      "每个你的回合，首次打出基础能量费用至少为2的攻击牌后，获得{amount}点格挡。"
+    ]
+  },
+  "ChevalGrandSlay:WinningRhythm": {
+    "NAME": "身手敏捷",
+    "DESCRIPTIONS": [
+      "你的回合中，每打出1张技能牌后，获得{amount}点格挡。"
+    ]
+  },
+  "ChevalGrandSlay:RemainingUsesSense": {
+    "NAME": "疲惫的倔强",
+    "DESCRIPTIONS": [
+      "你的回合中，每有1张你的牌进入休整牌堆，对1名随机敌人造成{amount}点伤害。"
+    ]
+  },
+  "ChevalGrandSlay:OldRoadWarmth": {
+    "NAME": "点滴积累",
+    "DESCRIPTIONS": [
+      "你的回合中，每有1张牌进入休整牌堆，就获得{amount}点格挡。"
+    ]
+  },
+  "ChevalGrandSlay:Power:VIGOR": {
+    "NAME": "活力",
+    "DESCRIPTIONS": [
+      "你的下一张攻击牌每段额外造成{amount}点伤害。"
+    ]
+  }
+}

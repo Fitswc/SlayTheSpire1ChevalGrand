@@ -4,6 +4,8 @@ import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.mechanics.CardMoves;
+import org.chevalgrand.mechanics.Stamina;
 
 public final class TurnTheOldPage extends RaceCard {
     public TurnTheOldPage() {

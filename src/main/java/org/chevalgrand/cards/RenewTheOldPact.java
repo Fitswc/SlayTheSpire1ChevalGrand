@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.OldPactPower;
 
 public final class RenewTheOldPact extends RaceCard {
     public RenewTheOldPact() {
@@ -12,7 +13,7 @@ public final class RenewTheOldPact extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.PACT, upgraded ? 2 : 1);
+        apply(new OldPactPower(player, upgraded ? 2 : 1));
     }
 
     @Override

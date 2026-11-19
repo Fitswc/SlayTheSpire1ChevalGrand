@@ -2,6 +2,15 @@
   "ChevalGrandSlay:ChevalGrandHat": {
     "NAME": "高尚骏逸的帽子",
     "FLAVOR": "这是什么地方？",
-    "DESCRIPTIONS": ["每场战斗的第一回合，获得 [E] 。"]
+    "DESCRIPTIONS": [
+      "每场战斗的第一回合，获得 [E] 。 NL 你可以在休息处选择 #y遗忘 ，移除至多4张体力牌。"
+    ]
+  },
+  "ChevalGrandSlay:ChevalGrandHatPlus": {
+    "NAME": "高尚骏逸的帽子+",
+    "FLAVOR": "这次,我一定要......",
+    "DESCRIPTIONS": [
+      "替换高尚骏逸的帽子。 NL 每场战斗的第一回合，获得 [E] 。 NL 本场战斗中，你的体力牌额外获得1点体力和体力上限，包括战斗中新生成的牌。 NL 你可以在休息处选择 #y遗忘 ，移除至多4张体力牌。"
+    ]
   }
 }

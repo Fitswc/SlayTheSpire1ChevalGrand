@@ -2,6 +2,7 @@ package org.chevalgrand.cards;
 
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.PerfectDefendPower;
 
 public final class PrefectDefend extends RaceCard {
     public PrefectDefend() {
@@ -13,7 +14,7 @@ public final class PrefectDefend extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        apply(player, RaceAbility.Effect.PERFECT, magicNumber);
+        apply(new PerfectDefendPower(player, magicNumber));
     }
 
     @Override

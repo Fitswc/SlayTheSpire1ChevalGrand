@@ -2,6 +2,15 @@
   "ChevalGrandSlay:ChevalGrandHat": {
     "NAME": "Cheval Grand's Hat",
     "FLAVOR": "Where am I?",
-    "DESCRIPTIONS": ["On the first turn of each combat, gain [E] ."]
+    "DESCRIPTIONS": [
+      "On the first turn of each combat, gain [E] . NL At Rest Sites, use #yForget to remove up to 4 Stamina cards from your deck."
+    ]
+  },
+  "ChevalGrandSlay:ChevalGrandHatPlus": {
+    "NAME": "Cheval Grand's Hat+",
+    "FLAVOR": "This time, I have to...",
+    "DESCRIPTIONS": [
+      "Replaces Cheval Grand's Hat. NL On the first turn of each combat, gain [E] . NL Your Stamina cards gain 1 Stamina and 1 maximum Stamina this combat, including cards generated during combat. NL At Rest Sites, use #yForget to remove up to 4 Stamina cards from your deck."
+    ]
   }
 }

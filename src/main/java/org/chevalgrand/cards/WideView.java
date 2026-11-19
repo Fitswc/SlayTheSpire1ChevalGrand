@@ -1,8 +1,8 @@
 package org.chevalgrand.cards;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import org.chevalgrand.powers.WideViewPower;
 
 public final class WideView extends RaceCard {
     public WideView() {
@@ -13,9 +13,7 @@ public final class WideView extends RaceCard {
 
     @Override
     void onPlay(AbstractPlayer player, AbstractMonster enemy) {
-        RaceAbility power = new RaceAbility(RaceAbility.Effect.WIDE, player, 2);
-        power.recovery = magicNumber;
-        addToBot(new ApplyPowerAction(player, player, power));
+        apply(new WideViewPower(player, 2, magicNumber));
     }
 
     @Override
