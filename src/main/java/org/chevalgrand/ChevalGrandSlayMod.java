@@ -1,6 +1,7 @@
 package org.chevalgrand;
 
 import basemod.BaseMod;
+import basemod.interfaces.AddAudioSubscriber;
 import basemod.interfaces.EditCardsSubscriber;
 import basemod.interfaces.EditCharactersSubscriber;
 import basemod.interfaces.EditKeywordsSubscriber;
@@ -20,19 +21,25 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.chevalgrand.cards.CardRegistry;
+import org.chevalgrand.cardpiles.RestPilePanel;
 import org.chevalgrand.characters.ChevalGrand;
+import org.chevalgrand.characters.ChevalGrandAudio;
 import org.chevalgrand.characters.ChevalGrandEnums;
+import org.chevalgrand.enchantments.ReserveStepEnchantment;
 import org.chevalgrand.keywords.RaceKeywords;
 import org.chevalgrand.potions.RacePotions;
+import org.chevalgrand.powers.NextEnemyHitReductionPower;
+import org.chevalgrand.powers.NoRetaliationPower;
 import org.chevalgrand.powers.PowerHooks;
 import org.chevalgrand.relics.ChevalGrandHat;
 import org.chevalgrand.relics.ChevalGrandHatPlus;
 import org.chevalgrand.rewards.StaminaReward;
+import org.chevalgrand.visuals.LowHealthScreen;
 
 @SpireInitializer
 public final class ChevalGrandSlayMod implements EditCardsSubscriber, EditCharactersSubscriber,
         EditRelicsSubscriber, EditStringsSubscriber, EditKeywordsSubscriber, PostBattleSubscriber,
-        PostInitializeSubscriber {
+        PostInitializeSubscriber, AddAudioSubscriber {
     static final String ID = "ChevalGrandSlay";
     public static final String IMAGES = ID + "/images/";
     private static final Logger LOGGER = LogManager.getLogger(ChevalGrandSlayMod.class);
@@ -85,15 +92,27 @@ public final class ChevalGrandSlayMod implements EditCardsSubscriber, EditCharac
     }
 
     @Override
+    public void receiveAddAudio() {
+        ChevalGrandAudio.registerAudio();
+    }
+
+    @Override
     public void receivePostInitialize() {
         RacePotions.register();
         StaminaReward.register();
+        ReserveStepEnchantment.loadArt();
+        BaseMod.addPower(NextEnemyHitReductionPower.class, NextEnemyHitReductionPower.POWER_ID);
+        BaseMod.addPower(NoRetaliationPower.class, NoRetaliationPower.POWER_ID);
+        RestPilePanel.register();
+        BaseMod.subscribe(new ChevalGrandAudio());
+        BaseMod.subscribe(new LowHealthScreen());
         LOGGER.info("ChevalGrandSlay initialized");
     }
 
     @Override
     public void receivePostBattle(AbstractRoom room) {
         StaminaReward.offer(room);
+        ReserveStepEnchantment.clearCombat();
         PowerHooks.resetCombat();
     }
 }

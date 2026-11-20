@@ -4,6 +4,7 @@ import basemod.abstracts.CustomPlayer;
 import basemod.animations.AbstractAnimation;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.actions.AbstractGameAction.AttackEffect;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -20,6 +21,7 @@ import org.chevalgrand.cards.ALittleCourage;
 import org.chevalgrand.cards.Defend;
 import org.chevalgrand.cards.Strike;
 import org.chevalgrand.relics.ChevalGrandHat;
+import org.chevalgrand.visuals.DomainVisuals;
 
 import static org.chevalgrand.characters.ChevalGrandEnums.CARD_COLOR;
 import static org.chevalgrand.characters.ChevalGrandEnums.ENERGY;
@@ -157,7 +159,13 @@ public final class ChevalGrand extends CustomPlayer {
 
     @Override
     public void doCharSelectScreenSelectEffect() {
-        CardCrawlGame.sound.play(getCustomModeCharacterButtonSoundKey());
+        ChevalGrandAudio.introduce();
+    }
+
+    @Override
+    public void renderPlayerImage(SpriteBatch batch) {
+        DomainVisuals.renderAura(this, batch);
+        super.renderPlayerImage(batch);
     }
 
     @Override

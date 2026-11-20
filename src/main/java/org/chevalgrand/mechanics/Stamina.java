@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import org.chevalgrand.cards.EmptyShell;
 import org.chevalgrand.cards.RaceCard;
+import org.chevalgrand.enchantments.ReserveStepEnchantment;
 import org.chevalgrand.powers.PowerHooks;
 import org.chevalgrand.relics.ChevalGrandHatPlus;
 
@@ -139,6 +140,7 @@ public final class Stamina implements CustomSavable<int[][]> {
     }
 
     public static void initializeCombat(CardGroup drawPile) {
+        ReserveStepEnchantment.clearCombat();
         PowerHooks.resetCombat();
         REST.clear();
         lastRestTurn = -1;

@@ -1,5 +1,8 @@
 package org.chevalgrand.cards;
 
+import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
+
+@NoCompendium
 public final class ChaseTheWindRestPile extends ChasePileChoice {
     public ChaseTheWindRestPile() {
         super("ChaseTheWindRestPile");

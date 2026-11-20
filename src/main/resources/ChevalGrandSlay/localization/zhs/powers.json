@@ -151,5 +151,17 @@
     "DESCRIPTIONS": [
       "你的下一张攻击牌每段额外造成{amount}点伤害。"
     ]
+  },
+  "ChevalGrandSlay:Power:NEXT_ENEMY_HIT_REDUCTION": {
+    "NAME": "卸下力道",
+    "DESCRIPTIONS": [
+      "敌方回合中，下一段敌方攻击伤害减少{amount}点，最低为0。"
+    ]
+  },
+  "ChevalGrandSlay:Power:NO_RETALIATION": {
+    "NAME": "安心出手",
+    "DESCRIPTIONS": [
+      "你的回合中，敌人造成的非攻击生命损失降为0。"
+    ]
   }
 }

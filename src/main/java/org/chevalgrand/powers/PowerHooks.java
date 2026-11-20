@@ -50,6 +50,11 @@ public final class PowerHooks {
         return info.type == DamageInfo.DamageType.NORMAL && info.owner instanceof AbstractMonster;
     }
 
+    public static int beforeBlockDamage(AbstractPlayer player, DamageInfo info, int damage) {
+        NextEnemyHitReductionPower power = find(player, NextEnemyHitReductionPower.POWER_ID, NextEnemyHitReductionPower.class);
+        return power == null ? damage : power.beforeBlock(info, damage);
+    }
+
     public static void beforePlayerDamage(AbstractPlayer player) {
         BEFORE_BLOCK.push(player.currentBlock);
     }

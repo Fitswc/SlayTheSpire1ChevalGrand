@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import org.chevalgrand.ChevalGrandSlayMod;
+import org.chevalgrand.mechanics.AttackChain;
 
 public final class FlowingAssaultPower extends ChevalPower {
     public static final String POWER_ID = ChevalGrandSlayMod.id("FlowingAssault");
@@ -19,8 +20,7 @@ public final class FlowingAssaultPower extends ChevalPower {
     @Override
     public void onAfterUseCard(AbstractCard card, UseCardAction action) {
         if (AbstractDungeon.actionManager.turnHasEnded || card.type != AbstractCard.CardType.ATTACK) return;
-        if (AbstractDungeon.actionManager.cardsPlayedThisTurn.stream()
-                .filter(played -> played.type == AbstractCard.CardType.ATTACK).count() > 3) {
+        if (AttackChain.countThisTurn() > 3) {
             flash();
             addToBot(new DrawCardAction((AbstractPlayer) owner, amount));
         }

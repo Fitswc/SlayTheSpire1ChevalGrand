@@ -151,5 +151,17 @@
     "DESCRIPTIONS": [
       "Your next Attack deals {amount} additional damage per hit."
     ]
+  },
+  "ChevalGrandSlay:Power:NEXT_ENEMY_HIT_REDUCTION": {
+    "NAME": "Softening the Blow",
+    "DESCRIPTIONS": [
+      "During the enemy turn, reduce damage from the next enemy attack hit by {amount}, to a minimum of 0."
+    ]
+  },
+  "ChevalGrandSlay:Power:NO_RETALIATION": {
+    "NAME": "Strike Without Worry",
+    "DESCRIPTIONS": [
+      "During your turn, non-attack HP loss caused by enemies is reduced to 0."
+    ]
   }
 }

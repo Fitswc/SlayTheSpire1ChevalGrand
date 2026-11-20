@@ -20,7 +20,9 @@ import java.util.List;
 import java.util.regex.Pattern;
 import org.chevalgrand.ChevalGrandSlayMod;
 import org.chevalgrand.characters.ChevalGrandEnums;
+import org.chevalgrand.enchantments.ReserveStepEnchantment;
 import org.chevalgrand.keywords.RaceKeywords;
+import org.chevalgrand.mechanics.AttackChain;
 import org.chevalgrand.mechanics.CardMoves;
 import org.chevalgrand.mechanics.Stamina;
 import org.chevalgrand.powers.EndlessStaminaPower;
@@ -36,7 +38,6 @@ public abstract class RaceCard extends CustomCard {
     RaceCard deckOrigin;
     int remaining;
     int restIndex;
-    boolean preserveStamina;
     int nextAttackBonus;
     int costUpgrade;
     private int damageUpgrade;
@@ -177,7 +178,9 @@ public abstract class RaceCard extends CustomCard {
     @Override
     public final void use(AbstractPlayer player, AbstractMonster enemy) {
         if (maxStamina() > 0) {
-            if (!preserveStamina && !player.hasPower(EndlessStaminaPower.POWER_ID)) setRemaining(remaining - 1);
+            if (!ReserveStepEnchantment.preservesStamina(this) && !player.hasPower(EndlessStaminaPower.POWER_ID)) {
+                setRemaining(remaining - 1);
+            }
         }
         CardMoves.beginAttack(this);
         onPlay(player, enemy);
@@ -235,12 +238,7 @@ public abstract class RaceCard extends CustomCard {
     }
 
     final int previousAttacks() {
-        java.util.List<AbstractCard> played = AbstractDungeon.actionManager.cardsPlayedThisTurn;
-        int size = played.size();
-        if (size > 0 && played.get(size - 1) == this) {
-            size--;
-        }
-        return (int) played.subList(0, size).stream().filter(card -> card.type == CardType.ATTACK).count();
+        return AttackChain.countBefore(this);
     }
 
     final void hit(AbstractPlayer player, AbstractMonster enemy, int amount) {

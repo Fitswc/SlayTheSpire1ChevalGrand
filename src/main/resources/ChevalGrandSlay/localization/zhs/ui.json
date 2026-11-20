@@ -11,6 +11,12 @@
       "体力耗尽的牌会进入这里。卡牌和能力可以恢复这些牌的体力并将它们移出。"
     ]
   },
+  "ChevalGrandSlay:RestPileScreen": {
+    "TEXT": ["那个……休整牌堆里没有牌。", "返回"]
+  },
+  "ChevalGrandSlay:ReserveStepEnchantment": {
+    "TEXT": ["余兴未尽", "本场战斗中打出此牌时，不消耗其体力。战斗结束时移除此附魔。"]
+  },
   "ChevalGrandSlay:Forget": {
     "TEXT": [
       "遗忘",

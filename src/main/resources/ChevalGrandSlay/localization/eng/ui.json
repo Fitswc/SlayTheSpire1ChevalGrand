@@ -11,6 +11,12 @@
       "Stamina cards enter this pile when they run out of Stamina. Cards and powers can restore their Stamina and move them out."
     ]
   },
+  "ChevalGrandSlay:RestPileScreen": {
+    "TEXT": ["Um... there are no cards in the Rest Pile.", "Back"]
+  },
+  "ChevalGrandSlay:ReserveStepEnchantment": {
+    "TEXT": ["Not Quite Done", "Playing this card consumes no Stamina this combat. This enchantment is removed at the end of combat."]
+  },
   "ChevalGrandSlay:Forget": {
     "TEXT": [
       "Forget",

@@ -1,6 +1,7 @@
 package org.chevalgrand.patches;
 
 import com.evacipated.cardcrawl.modthespire.lib.SpireField;
+import com.evacipated.cardcrawl.modthespire.lib.SpireInstrumentPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -12,6 +13,9 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import javassist.CannotCompileException;
+import javassist.expr.ExprEditor;
+import javassist.expr.FieldAccess;
 import org.chevalgrand.mechanics.CardMoves;
 import org.chevalgrand.powers.PowerHooks;
 
@@ -55,6 +59,19 @@ public final class CombatCardPatches {
 
         public static void Postfix(AbstractPlayer __instance, DamageInfo info) {
             PowerHooks.afterPlayerDamage(__instance, info);
+        }
+
+        @SpireInstrumentPatch
+        public static ExprEditor reduceHitBeforeBlock() {
+            return new ExprEditor() {
+                @Override
+                public void edit(FieldAccess field) throws CannotCompileException {
+                    if (field.isReader() && field.getClassName().equals(DamageInfo.class.getName())
+                            && field.getFieldName().equals("output")) {
+                        field.replace("{ $_ = org.chevalgrand.powers.PowerHooks.beforeBlockDamage(this, $0, $proceed()); }");
+                    }
+                }
+            };
         }
     }
 
