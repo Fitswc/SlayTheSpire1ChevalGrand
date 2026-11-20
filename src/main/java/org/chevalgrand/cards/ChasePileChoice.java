@@ -5,7 +5,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 abstract class ChasePileChoice extends RaceCard {
     ChasePileChoice(String name) {
-        super(name, "ChaseTheWind", CardRarity.SPECIAL, CardType.SKILL, CardTarget.SELF, 0, 0);
+        super(name, "ChaseTheWindPileChoice", CardRarity.SPECIAL, CardType.SKILL, CardTarget.SELF, 0, 0);
         initializeDescription();
     }
 
